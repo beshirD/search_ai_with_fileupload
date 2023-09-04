@@ -1,0 +1,2472 @@
+[
+  {
+    "search": [
+      {
+        "id": "d3f4cd6a-516e-47b3-a910-b330407a1a64",
+        "query": "apple",
+        "date_created": "2023-09-03T23:59:04.775Z",
+        "created_at": "2023-09-04T01:10:08.032Z",
+        "updated_at": "2023-09-03T23:58:54.382Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06b7221d-4151-4be6-9490-99503f189dc8",
+        "query": "car",
+        "date_created": "2023-09-04T05:37:51.460Z",
+        "created_at": "2023-09-04T08:07:41.974Z",
+        "updated_at": "2023-09-04T02:24:46.071Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea4b79ea-cb37-4410-b93e-6410c99a23cc",
+        "query": "house",
+        "date_created": "2023-09-03T21:24:09.788Z",
+        "created_at": "2023-09-04T19:22:16.416Z",
+        "updated_at": "2023-09-04T05:59:02.120Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1ce141b-66da-4706-b2ce-36f52e8842df",
+        "query": "restaurant",
+        "date_created": "2023-09-04T13:30:18.526Z",
+        "created_at": "2023-09-04T00:14:49.278Z",
+        "updated_at": "2023-09-04T13:46:05.106Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7debee66-445f-4c4f-9e0a-4144554db9cb",
+        "query": "vacation",
+        "date_created": "2023-09-04T01:04:18.513Z",
+        "created_at": "2023-09-04T19:15:17.171Z",
+        "updated_at": "2023-09-04T06:51:21.152Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "bf2f5f35-452a-4c4b-be01-56dca00fdf93",
+        "status": "pending",
+        "date_created": "2023-09-04T13:18:31.027Z",
+        "date_updated": "2023-09-04T09:48:07.956Z",
+        "created_at": "2023-09-04T16:31:58.605Z",
+        "updated_at": "2023-09-03T22:24:37.711Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20a20b6d-6d1e-414a-ad8c-054b2bfee5d9",
+        "status": "accepted",
+        "date_created": "2023-09-04T05:37:29.859Z",
+        "date_updated": "2023-09-04T01:03:14.151Z",
+        "created_at": "2023-09-04T12:04:59.615Z",
+        "updated_at": "2023-09-03T23:01:31.798Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ea79d80-3929-47e9-8fb6-39910fe37c75",
+        "status": "declined",
+        "date_created": "2023-09-04T18:53:45.539Z",
+        "date_updated": "2023-09-04T01:45:46.586Z",
+        "created_at": "2023-09-04T12:45:46.208Z",
+        "updated_at": "2023-09-03T22:02:05.504Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d52d9538-b09e-4bd9-a5e5-46957c241503",
+        "status": "sent",
+        "date_created": "2023-09-04T09:30:27.723Z",
+        "date_updated": "2023-09-04T14:50:35.279Z",
+        "created_at": "2023-09-04T18:24:30.473Z",
+        "updated_at": "2023-09-04T07:46:53.057Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4640d0ff-e580-436a-800c-a4b6042a02df",
+        "status": "expired",
+        "date_created": "2023-09-03T21:03:42.812Z",
+        "date_updated": "2023-09-04T11:22:53.786Z",
+        "created_at": "2023-09-04T02:29:23.912Z",
+        "updated_at": "2023-09-04T07:04:25.280Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "documentation": [
+      {
+        "id": "f22c9241-ac4d-42da-84f7-fa1a779486dd",
+        "title": "Getting Started Guide",
+        "content": "This guide will help you get started with our product.",
+        "date_created": "2023-09-04T07:46:05.635Z",
+        "date_updated": "2023-09-04T15:30:14.768Z",
+        "created_at": "2023-09-04T05:49:05.248Z",
+        "updated_at": "2023-09-04T15:08:55.332Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52e1205d-108d-46ce-a602-1f8d3ac9219d",
+        "title": "User Manual",
+        "content": "Learn how to use our software with this comprehensive user manual.",
+        "date_created": "2023-09-04T03:44:52.168Z",
+        "date_updated": "2023-09-04T18:55:00.460Z",
+        "created_at": "2023-09-04T05:56:52.948Z",
+        "updated_at": "2023-09-04T12:03:10.088Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca579520-c217-46ab-ab97-b472a2c2fbfc",
+        "title": "API Reference",
+        "content": "Refer to this documentation for detailed information on our API.",
+        "date_created": "2023-09-04T17:32:46.359Z",
+        "date_updated": "2023-09-03T21:10:45.032Z",
+        "created_at": "2023-09-04T17:20:37.162Z",
+        "updated_at": "2023-09-04T17:41:54.165Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d7f3e7f-f93c-4cc4-9464-bdb9ddd58177",
+        "title": "Installation Instructions",
+        "content": "Follow these instructions to install our application on your device.",
+        "date_created": "2023-09-04T00:23:58.876Z",
+        "date_updated": "2023-09-04T02:44:42.014Z",
+        "created_at": "2023-09-03T20:52:35.288Z",
+        "updated_at": "2023-09-03T23:32:41.299Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c04bd699-f0e5-427c-8c38-4c4a5bd9ef12",
+        "title": "Troubleshooting Guide",
+        "content": "Troubleshoot common issues with this handy guide.",
+        "date_created": "2023-09-04T00:14:20.529Z",
+        "date_updated": "2023-09-04T12:41:27.112Z",
+        "created_at": "2023-09-04T15:45:13.623Z",
+        "updated_at": "2023-09-04T04:13:47.178Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "answer": [
+      {
+        "id": "e97f3ccd-5c49-4746-8505-97dd298847b1",
+        "content": "Here is the solution to your problem.",
+        "date_created": "2023-09-04T05:17:31.196Z",
+        "created_at": "2023-09-04T02:52:29.912Z",
+        "updated_at": "2023-09-04T07:25:30.175Z",
+        "search_id": "ea4b79ea-cb37-4410-b93e-6410c99a23cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4d7fa46-d831-4c1b-b98d-dd3e8aef644a",
+        "content": "I can help you with that.",
+        "date_created": "2023-09-04T01:03:02.545Z",
+        "created_at": "2023-09-04T16:15:43.657Z",
+        "updated_at": "2023-09-04T10:43:06.899Z",
+        "search_id": "06b7221d-4151-4be6-9490-99503f189dc8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae3efd6e-e3af-4ed0-b206-528a94c010c3",
+        "content": "Please find the answer below.",
+        "date_created": "2023-09-04T20:12:52.752Z",
+        "created_at": "2023-09-04T16:00:28.887Z",
+        "updated_at": "2023-09-04T02:49:56.471Z",
+        "search_id": "7debee66-445f-4c4f-9e0a-4144554db9cb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc5f7b2f-19aa-481a-89e0-8905aecaf2a1",
+        "content": "This should resolve your issue.",
+        "date_created": "2023-09-04T08:21:23.583Z",
+        "created_at": "2023-09-04T02:42:58.211Z",
+        "updated_at": "2023-09-04T06:37:00.550Z",
+        "search_id": "06b7221d-4151-4be6-9490-99503f189dc8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41987e71-03c9-4168-9b56-247d0358de81",
+        "content": "Let me provide you with the necessary information.",
+        "date_created": "2023-09-04T02:36:57.947Z",
+        "created_at": "2023-09-04T13:42:53.990Z",
+        "updated_at": "2023-09-04T19:15:35.799Z",
+        "search_id": "e1ce141b-66da-4706-b2ce-36f52e8842df",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ae44eff4-650f-44a5-9330-24b08c37de64",
+        "email": "Justice56@yahoo.com",
+        "firstName": "Maxine",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79139588",
+        "tenantId": null
+      },
+      {
+        "reference": "7373d4ad-7d8d-4394-b153-c78a3ff858ba",
+        "email": "Mathias.Fisher@hotmail.com",
+        "firstName": "Arlie",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32299498",
+        "tenantId": null
+      },
+      {
+        "reference": "9b545e8c-c7f3-41c9-9e11-848de9410d3c",
+        "email": "Cynthia.Bins20@hotmail.com",
+        "firstName": "Dasia",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41703126",
+        "tenantId": null
+      },
+      {
+        "reference": "77ef262f-692d-494e-8fe3-7ab65a04bf67",
+        "email": "Johathan.Weimann@yahoo.com",
+        "firstName": "Bertram",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93285201",
+        "tenantId": null
+      },
+      {
+        "reference": "f0d13424-f960-45fb-b23c-00028b740160",
+        "email": "Dario_Mohr@hotmail.com",
+        "firstName": "Antonette",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/379.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "5d995c2a-cbe7-44b1-960b-3b1ffc143a86",
+        "query": "apple",
+        "date_created": "2023-09-04T17:55:48.593Z",
+        "created_at": "2023-09-04T00:55:11.755Z",
+        "updated_at": "2023-09-04T02:17:52.466Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "000061f5-cca2-4c1c-b547-ed64728b3166",
+        "query": "banana",
+        "date_created": "2023-09-04T03:36:08.137Z",
+        "created_at": "2023-09-04T14:32:38.479Z",
+        "updated_at": "2023-09-04T18:36:06.553Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1781fd6c-cde8-4186-8e5d-d11d291920d9",
+        "query": "orange",
+        "date_created": "2023-09-03T23:48:42.348Z",
+        "created_at": "2023-09-04T07:21:14.441Z",
+        "updated_at": "2023-09-03T23:42:57.355Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "707c63c3-8691-4311-a939-fdbf17f68516",
+        "query": "grape",
+        "date_created": "2023-09-03T23:13:31.083Z",
+        "created_at": "2023-09-04T00:44:37.300Z",
+        "updated_at": "2023-09-04T02:26:27.050Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "625de101-dff2-42fc-ad41-9b5cdb60cbd4",
+        "query": "watermelon",
+        "date_created": "2023-09-04T09:52:05.338Z",
+        "created_at": "2023-09-04T14:01:56.840Z",
+        "updated_at": "2023-09-04T12:02:35.553Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "523e7789-44f1-4310-9e7b-becbd681e755",
+        "status": "pending",
+        "date_created": "2023-09-04T12:16:43.891Z",
+        "date_updated": "2023-09-04T12:00:10.958Z",
+        "created_at": "2023-09-04T13:21:40.982Z",
+        "updated_at": "2023-09-04T18:44:13.610Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b81c058-353b-44ad-8f67-703cf2bc7e94",
+        "status": "accepted",
+        "date_created": "2023-09-03T20:59:04.441Z",
+        "date_updated": "2023-09-04T07:03:15.897Z",
+        "created_at": "2023-09-04T12:01:49.936Z",
+        "updated_at": "2023-09-04T17:25:20.440Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b864e7d0-cbd3-455e-bcd1-9f4541f8f338",
+        "status": "declined",
+        "date_created": "2023-09-04T11:54:58.972Z",
+        "date_updated": "2023-09-04T10:54:08.029Z",
+        "created_at": "2023-09-04T15:33:24.058Z",
+        "updated_at": "2023-09-04T19:32:23.474Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3dca37f-c451-4905-85e7-5096bb55d52a",
+        "status": "expired",
+        "date_created": "2023-09-04T06:22:47.696Z",
+        "date_updated": "2023-09-04T09:39:37.923Z",
+        "created_at": "2023-09-04T04:55:26.044Z",
+        "updated_at": "2023-09-03T23:07:08.888Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4a94b85-ddf4-4cba-92f4-156f2fa53196",
+        "status": "cancelled",
+        "date_created": "2023-09-04T14:21:37.354Z",
+        "date_updated": "2023-09-04T04:02:42.423Z",
+        "created_at": "2023-09-04T10:13:17.536Z",
+        "updated_at": "2023-09-03T22:53:32.151Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "documentation": [
+      {
+        "id": "6305c9b1-d917-4422-a0de-6f8465bd931b",
+        "title": "Getting Started Guide",
+        "content": "This guide will help you get started with our platform",
+        "date_created": "2023-09-04T17:28:59.647Z",
+        "date_updated": "2023-09-04T02:56:09.974Z",
+        "created_at": "2023-09-04T04:50:41.895Z",
+        "updated_at": "2023-09-03T20:56:39.315Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96759558-6540-4f20-90a7-53a45c33fd1a",
+        "title": "API Reference Manual",
+        "content": "The API reference manual provides detailed information about our APIs",
+        "date_created": "2023-09-04T11:15:12.727Z",
+        "date_updated": "2023-09-04T04:52:57.941Z",
+        "created_at": "2023-09-04T05:22:46.191Z",
+        "updated_at": "2023-09-04T13:10:40.584Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b4d792d-248c-4b53-aeca-f45eb4a44574",
+        "title": "User Manual",
+        "content": "Learn how to use our product with this user manual",
+        "date_created": "2023-09-04T02:09:33.221Z",
+        "date_updated": "2023-09-03T21:58:18.728Z",
+        "created_at": "2023-09-04T05:54:00.709Z",
+        "updated_at": "2023-09-04T06:53:36.395Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fee03bd-de2f-45d0-8309-87494db8d243",
+        "title": "Integration Guide",
+        "content": "Integrate our services seamlessly with this guide",
+        "date_created": "2023-09-04T15:27:21.605Z",
+        "date_updated": "2023-09-04T01:17:25.338Z",
+        "created_at": "2023-09-04T03:38:16.925Z",
+        "updated_at": "2023-09-04T19:24:42.541Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ab9a7c4-ba32-46d3-b069-30e700f75e58",
+        "title": "Troubleshooting Guide",
+        "content": "Troubleshoot common issues with our troubleshooting guide",
+        "date_created": "2023-09-04T01:12:05.386Z",
+        "date_updated": "2023-09-04T08:12:15.013Z",
+        "created_at": "2023-09-04T15:40:21.685Z",
+        "updated_at": "2023-09-04T02:04:41.968Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "answer": [
+      {
+        "id": "0b68a85f-ecdd-4e5b-9610-04d4a79b5f4f",
+        "content": "Here is the answer to your question",
+        "date_created": "2023-09-04T16:57:13.294Z",
+        "created_at": "2023-09-04T02:35:48.444Z",
+        "updated_at": "2023-09-04T16:47:03.011Z",
+        "search_id": "000061f5-cca2-4c1c-b547-ed64728b3166",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6dafe565-9d6e-44e4-94a8-13addcd13f31",
+        "content": "I can help you with that",
+        "date_created": "2023-09-03T22:55:42.292Z",
+        "created_at": "2023-09-04T16:47:45.476Z",
+        "updated_at": "2023-09-04T14:46:23.144Z",
+        "search_id": "000061f5-cca2-4c1c-b547-ed64728b3166",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "087ac45c-8217-46c4-b3f8-1fdae3cd051c",
+        "content": "Let me provide you with the information you need",
+        "date_created": "2023-09-04T13:25:53.358Z",
+        "created_at": "2023-09-04T06:10:00.910Z",
+        "updated_at": "2023-09-04T02:03:24.482Z",
+        "search_id": "707c63c3-8691-4311-a939-fdbf17f68516",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ab26fe9-f3fd-4938-8c9e-3928697dd314",
+        "content": "This is the solution to your problem",
+        "date_created": "2023-09-04T17:15:04.325Z",
+        "created_at": "2023-09-04T01:43:09.682Z",
+        "updated_at": "2023-09-04T08:15:20.795Z",
+        "search_id": "707c63c3-8691-4311-a939-fdbf17f68516",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c01c2d20-6c53-43ed-9878-4eb09428b650",
+        "content": "I have the answer you're looking for",
+        "date_created": "2023-09-04T10:15:59.257Z",
+        "created_at": "2023-09-04T10:34:35.927Z",
+        "updated_at": "2023-09-04T05:59:37.996Z",
+        "search_id": "707c63c3-8691-4311-a939-fdbf17f68516",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "af0cf4e2-4a42-4ec6-ad51-3424f716d738",
+        "email": "Josh23@hotmail.com",
+        "firstName": "Jakob",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62087848",
+        "tenantId": null
+      },
+      {
+        "reference": "f6e61e7c-0b3d-49bb-b7bf-b983b22dd522",
+        "email": "Alfonzo65@yahoo.com",
+        "firstName": "Montana",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29398526",
+        "tenantId": null
+      },
+      {
+        "reference": "3cd782ac-5a20-4318-8c8a-f499caf2e764",
+        "email": "Walter76@gmail.com",
+        "firstName": "Wilford",
+        "lastName": "Cruickshank",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72007622",
+        "tenantId": null
+      },
+      {
+        "reference": "27804dcf-cc59-4ddb-aeb6-762c2ca225cf",
+        "email": "Ian.Ratke@yahoo.com",
+        "firstName": "Amparo",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42998776",
+        "tenantId": null
+      },
+      {
+        "reference": "76e40572-bb50-4250-8c72-c32594e7cc58",
+        "email": "Ashley_Jacobi@gmail.com",
+        "firstName": "Guadalupe",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/413.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "c6b45503-0809-459e-ac3e-4a352752b4a5",
+        "query": "apple",
+        "date_created": "2023-09-04T11:18:04.178Z",
+        "created_at": "2023-09-04T18:43:13.691Z",
+        "updated_at": "2023-09-04T00:43:27.652Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d430a6c0-8c8e-47e3-89cb-81b22f5a2514",
+        "query": "banana",
+        "date_created": "2023-09-03T21:48:24.840Z",
+        "created_at": "2023-09-04T05:27:39.515Z",
+        "updated_at": "2023-09-04T02:53:24.737Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7b2cfaa-61ca-46bd-b811-931c38f9b32d",
+        "query": "carrot",
+        "date_created": "2023-09-03T22:00:21.327Z",
+        "created_at": "2023-09-04T16:58:59.155Z",
+        "updated_at": "2023-09-04T19:30:05.835Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12971059-e9dc-498f-a748-25aeeed8fd0e",
+        "query": "dog",
+        "date_created": "2023-09-04T04:07:28.600Z",
+        "created_at": "2023-09-04T19:11:32.464Z",
+        "updated_at": "2023-09-04T12:22:39.615Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84023ce3-ef14-49c1-b00f-9fd867d668c9",
+        "query": "elephant",
+        "date_created": "2023-09-04T09:56:25.684Z",
+        "created_at": "2023-09-04T07:44:12.252Z",
+        "updated_at": "2023-09-04T01:00:55.788Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "20a3eeff-be00-46b8-a406-fe4a7a47a742",
+        "status": "pending",
+        "date_created": "2023-09-04T04:19:17.777Z",
+        "date_updated": "2023-09-04T19:19:12.582Z",
+        "created_at": "2023-09-04T12:00:50.371Z",
+        "updated_at": "2023-09-04T19:45:22.010Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35cfa38f-3023-47f8-ad49-73e43c58057d",
+        "status": "accepted",
+        "date_created": "2023-09-04T00:11:51.221Z",
+        "date_updated": "2023-09-03T23:25:55.624Z",
+        "created_at": "2023-09-03T22:27:47.472Z",
+        "updated_at": "2023-09-04T03:33:41.519Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "692d1e03-ca4a-4900-9951-a4e3a0383710",
+        "status": "declined",
+        "date_created": "2023-09-04T10:13:27.803Z",
+        "date_updated": "2023-09-04T10:31:13.144Z",
+        "created_at": "2023-09-04T05:01:59.212Z",
+        "updated_at": "2023-09-04T01:32:35.861Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95717436-c363-47ca-a0db-9c95e5b51ab7",
+        "status": "expired",
+        "date_created": "2023-09-04T04:14:55.165Z",
+        "date_updated": "2023-09-04T05:05:56.117Z",
+        "created_at": "2023-09-04T16:39:32.190Z",
+        "updated_at": "2023-09-04T01:19:53.363Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a69bc63-5494-4078-8ca9-99f24bc308cd",
+        "status": "cancelled",
+        "date_created": "2023-09-04T17:35:35.081Z",
+        "date_updated": "2023-09-03T22:54:00.618Z",
+        "created_at": "2023-09-04T10:17:23.111Z",
+        "updated_at": "2023-09-04T02:20:17.623Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "documentation": [
+      {
+        "id": "65c20d88-77eb-4670-9269-e8915e0e5895",
+        "title": "Getting Started",
+        "content": "Learn how to use our product",
+        "date_created": "2023-09-04T10:48:18.095Z",
+        "date_updated": "2023-09-04T09:38:04.742Z",
+        "created_at": "2023-09-04T01:13:58.653Z",
+        "updated_at": "2023-09-04T16:00:35.116Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae9348ae-f688-40a0-8983-37830f1f8837",
+        "title": "User Guide",
+        "content": "Find answers to common questions",
+        "date_created": "2023-09-04T17:56:47.216Z",
+        "date_updated": "2023-09-04T19:09:35.192Z",
+        "created_at": "2023-09-04T09:28:41.679Z",
+        "updated_at": "2023-09-04T11:29:15.104Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11c338c5-788f-4625-8df6-30ab49204a4c",
+        "title": "API Reference",
+        "content": "Explore our API endpoints",
+        "date_created": "2023-09-03T21:11:23.867Z",
+        "date_updated": "2023-09-03T21:11:59.733Z",
+        "created_at": "2023-09-04T15:59:50.861Z",
+        "updated_at": "2023-09-04T14:00:05.984Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ee107ac-76be-4eaf-b59a-6b1d031cb218",
+        "title": "FAQs",
+        "content": "Get help with common issues",
+        "date_created": "2023-09-04T17:16:37.961Z",
+        "date_updated": "2023-09-04T00:43:38.496Z",
+        "created_at": "2023-09-04T07:18:02.781Z",
+        "updated_at": "2023-09-04T15:09:11.855Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d196d2e-2819-4f3c-94f3-9870588c501e",
+        "title": "Troubleshooting",
+        "content": "Resolve technical problems",
+        "date_created": "2023-09-04T18:56:29.751Z",
+        "date_updated": "2023-09-04T19:43:22.801Z",
+        "created_at": "2023-09-04T02:00:18.652Z",
+        "updated_at": "2023-09-04T14:55:19.108Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "answer": [
+      {
+        "id": "e4f20f24-3787-4101-a0ed-b3564beed34b",
+        "content": "This is the answer to your question",
+        "date_created": "2023-09-04T06:33:15.845Z",
+        "created_at": "2023-09-03T22:54:47.252Z",
+        "updated_at": "2023-09-04T06:14:25.947Z",
+        "search_id": "c6b45503-0809-459e-ac3e-4a352752b4a5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16ad54e6-f28d-4e65-82c8-339382d4320b",
+        "content": "Here's a solution to your problem",
+        "date_created": "2023-09-04T15:16:55.811Z",
+        "created_at": "2023-09-04T02:20:18.629Z",
+        "updated_at": "2023-09-04T14:02:27.556Z",
+        "search_id": "d430a6c0-8c8e-47e3-89cb-81b22f5a2514",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0666630-9827-49fe-9d03-ee4bddc19840",
+        "content": "I can help you with that",
+        "date_created": "2023-09-04T18:44:01.406Z",
+        "created_at": "2023-09-04T06:39:15.280Z",
+        "updated_at": "2023-09-04T10:49:43.686Z",
+        "search_id": "84023ce3-ef14-49c1-b00f-9fd867d668c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad6a23b2-7343-488c-9600-d3b1a98472a2",
+        "content": "Let me provide you with the information you need",
+        "date_created": "2023-09-04T15:45:29.621Z",
+        "created_at": "2023-09-04T07:10:32.345Z",
+        "updated_at": "2023-09-04T17:12:43.119Z",
+        "search_id": "84023ce3-ef14-49c1-b00f-9fd867d668c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e191e39c-6d69-4cbb-825a-d3297aab8d96",
+        "content": "I have the answer you're looking for",
+        "date_created": "2023-09-04T14:53:33.549Z",
+        "created_at": "2023-09-03T21:08:40.479Z",
+        "updated_at": "2023-09-03T23:41:11.443Z",
+        "search_id": "d430a6c0-8c8e-47e3-89cb-81b22f5a2514",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "92fa2a9a-eb1a-4cbc-8003-dbd3a3167a59",
+        "email": "Tiara.Kassulke71@hotmail.com",
+        "firstName": "Hollis",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6232853",
+        "tenantId": null
+      },
+      {
+        "reference": "2109982b-c5f9-4108-bfce-4e0d5818b5da",
+        "email": "Laney.Veum@gmail.com",
+        "firstName": "Sheila",
+        "lastName": "Stracke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79204264",
+        "tenantId": null
+      },
+      {
+        "reference": "bc158f87-f33b-420c-80b6-cc3021bd9f8f",
+        "email": "Furman_Kerluke55@hotmail.com",
+        "firstName": "Leilani",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49520290",
+        "tenantId": null
+      },
+      {
+        "reference": "8e618d20-0733-4ae6-85ca-b832b1eaa0ce",
+        "email": "Rachel_Schiller28@hotmail.com",
+        "firstName": "Linnie",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24864605",
+        "tenantId": null
+      },
+      {
+        "reference": "8d6c4d56-f900-4e3c-b210-84e92b8d07f3",
+        "email": "Andre75@hotmail.com",
+        "firstName": "Emerson",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12044684",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "76a61090-312f-4c3e-93a6-1cfd7e688e85",
+        "query": "apple",
+        "date_created": "2023-09-04T05:53:41.873Z",
+        "created_at": "2023-09-03T21:25:38.159Z",
+        "updated_at": "2023-09-03T22:59:27.305Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4309397-2d38-44cb-a31d-9c280d4711ac",
+        "query": "car",
+        "date_created": "2023-09-04T13:33:07.839Z",
+        "created_at": "2023-09-04T04:11:10.908Z",
+        "updated_at": "2023-09-04T07:32:10.091Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7594575-7f33-4bfd-a19c-a28030950a51",
+        "query": "music",
+        "date_created": "2023-09-03T20:42:18.236Z",
+        "created_at": "2023-09-04T09:56:24.894Z",
+        "updated_at": "2023-09-04T00:21:30.845Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "611dc27d-1bde-44c7-8565-6b4d1c394f5d",
+        "query": "travel",
+        "date_created": "2023-09-04T13:59:54.288Z",
+        "created_at": "2023-09-04T18:59:39.948Z",
+        "updated_at": "2023-09-04T18:42:51.827Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba7d0082-98ef-4aec-bd1b-8b3ce015065d",
+        "query": "sports",
+        "date_created": "2023-09-04T05:44:31.393Z",
+        "created_at": "2023-09-04T16:49:34.859Z",
+        "updated_at": "2023-09-04T13:13:29.492Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "3472836e-ca4a-450d-9452-9604daf1ebdf",
+        "status": "pending",
+        "date_created": "2023-09-04T15:15:09.246Z",
+        "date_updated": "2023-09-04T02:55:02.076Z",
+        "created_at": "2023-09-04T05:42:42.086Z",
+        "updated_at": "2023-09-04T15:40:39.584Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40913e8b-091d-4800-9578-7f62f750b7c4",
+        "status": "accepted",
+        "date_created": "2023-09-04T02:17:47.389Z",
+        "date_updated": "2023-09-04T20:11:25.955Z",
+        "created_at": "2023-09-04T05:37:45.067Z",
+        "updated_at": "2023-09-04T15:04:12.826Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3947fd9e-411a-4e90-ae45-2ebff2dd6b4e",
+        "status": "declined",
+        "date_created": "2023-09-04T18:46:00.494Z",
+        "date_updated": "2023-09-04T00:55:37.770Z",
+        "created_at": "2023-09-04T15:52:09.298Z",
+        "updated_at": "2023-09-04T01:57:31.303Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61df1b2c-bba4-4bab-9fab-67d0f68367b9",
+        "status": "sent",
+        "date_created": "2023-09-04T07:29:21.759Z",
+        "date_updated": "2023-09-04T18:32:38.310Z",
+        "created_at": "2023-09-04T07:54:37.874Z",
+        "updated_at": "2023-09-03T23:35:29.943Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b09ae86-ad25-4052-ad0e-1acd93115a4c",
+        "status": "expired",
+        "date_created": "2023-09-04T11:23:24.209Z",
+        "date_updated": "2023-09-04T19:06:40.696Z",
+        "created_at": "2023-09-04T13:33:24.703Z",
+        "updated_at": "2023-09-04T08:20:21.561Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "documentation": [
+      {
+        "id": "93e55156-6c11-4de9-baa1-616f037aa00b",
+        "title": "Getting Started Guide",
+        "content": "This guide will help you get started with our product.",
+        "date_created": "2023-09-04T00:41:01.387Z",
+        "date_updated": "2023-09-04T05:48:07.142Z",
+        "created_at": "2023-09-03T20:37:55.974Z",
+        "updated_at": "2023-09-04T03:17:38.507Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d88cd27-00e4-4bd2-a742-07b452076b13",
+        "title": "User Manual",
+        "content": "The user manual provides detailed instructions on how to use our software.",
+        "date_created": "2023-09-04T03:09:01.736Z",
+        "date_updated": "2023-09-04T05:14:24.418Z",
+        "created_at": "2023-09-04T06:21:41.958Z",
+        "updated_at": "2023-09-04T06:47:48.453Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0326b856-b5a3-4394-a933-3d8ae747a101",
+        "title": "API Reference",
+        "content": "Refer to this document for information on our API endpoints.",
+        "date_created": "2023-09-04T04:27:10.171Z",
+        "date_updated": "2023-09-04T17:14:46.335Z",
+        "created_at": "2023-09-04T11:31:43.799Z",
+        "updated_at": "2023-09-04T06:57:01.366Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd323c5d-df26-4648-b2d4-2164335f0165",
+        "title": "Installation Guide",
+        "content": "Follow the installation guide to set up our software on your system.",
+        "date_created": "2023-09-04T19:23:25.637Z",
+        "date_updated": "2023-09-04T07:22:13.006Z",
+        "created_at": "2023-09-04T12:18:14.695Z",
+        "updated_at": "2023-09-04T04:55:01.108Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a78feac-93b2-457c-8897-c99fb280262e",
+        "title": "Troubleshooting Guide",
+        "content": "Use this guide to troubleshoot common issues.",
+        "date_created": "2023-09-04T05:41:45.870Z",
+        "date_updated": "2023-09-04T04:09:00.427Z",
+        "created_at": "2023-09-04T18:44:37.302Z",
+        "updated_at": "2023-09-04T17:39:57.477Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "answer": [
+      {
+        "id": "0042e460-2825-4b8b-9c82-7d9f4e5e34d5",
+        "content": "Here is the solution to your problem.",
+        "date_created": "2023-09-04T08:27:15.210Z",
+        "created_at": "2023-09-04T14:56:34.009Z",
+        "updated_at": "2023-09-04T12:56:10.917Z",
+        "search_id": "ba7d0082-98ef-4aec-bd1b-8b3ce015065d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "887d0df0-98a5-4e09-bbf0-e13410c9ab9e",
+        "content": "I recommend trying this approach.",
+        "date_created": "2023-09-04T03:55:51.099Z",
+        "created_at": "2023-09-04T06:40:11.339Z",
+        "updated_at": "2023-09-04T08:49:59.036Z",
+        "search_id": "ba7d0082-98ef-4aec-bd1b-8b3ce015065d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b4b58d5-558f-43d9-9574-922a8caf9354",
+        "content": "You can achieve your goal by following these steps.",
+        "date_created": "2023-09-04T01:06:51.532Z",
+        "created_at": "2023-09-04T07:23:58.281Z",
+        "updated_at": "2023-09-04T12:18:09.161Z",
+        "search_id": "611dc27d-1bde-44c7-8565-6b4d1c394f5d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b513979d-e95d-4e6b-a302-bc224aa30d56",
+        "content": "Consider this alternative solution.",
+        "date_created": "2023-09-04T01:09:09.736Z",
+        "created_at": "2023-09-03T23:02:05.210Z",
+        "updated_at": "2023-09-03T20:58:48.325Z",
+        "search_id": "b7594575-7f33-4bfd-a19c-a28030950a51",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ed2c058-6929-4d26-9725-76cbb7b302df",
+        "content": "I suggest consulting with an expert for further assistance.",
+        "date_created": "2023-09-04T08:25:19.292Z",
+        "created_at": "2023-09-04T01:28:19.287Z",
+        "updated_at": "2023-09-04T05:14:33.423Z",
+        "search_id": "d4309397-2d38-44cb-a31d-9c280d4711ac",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e31bf6e7-aa36-4b96-89dd-52c7b4c5e06d",
+        "email": "Kendall30@hotmail.com",
+        "firstName": "Rebeka",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45900751",
+        "tenantId": null
+      },
+      {
+        "reference": "4f2cd6a0-fbd9-4ff0-b197-7532d0d26b6b",
+        "email": "Lester98@gmail.com",
+        "firstName": "Joy",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/798.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dffedc7c-d78f-47a9-97d0-0823d880f4dd",
+        "email": "Amelia4@gmail.com",
+        "firstName": "Aubree",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81839441",
+        "tenantId": null
+      },
+      {
+        "reference": "0e5ab219-8bbb-4667-98bb-473ba70897bb",
+        "email": "Jarrett26@yahoo.com",
+        "firstName": "Ibrahim",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/774.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2d6c4796-e3ea-4cb6-85ac-168a6c9c71cb",
+        "email": "Niko41@hotmail.com",
+        "firstName": "Ansley",
+        "lastName": "Johnston-Hilpert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85027596",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "17c085ec-732b-4b52-866b-ff7e0bd8e615",
+        "query": "apple",
+        "date_created": "2023-09-04T12:57:16.344Z",
+        "created_at": "2023-09-04T15:38:56.445Z",
+        "updated_at": "2023-09-03T23:36:45.121Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31845348-8c6b-4b40-b6ef-9aabc0ce718f",
+        "query": "banana",
+        "date_created": "2023-09-04T15:29:12.959Z",
+        "created_at": "2023-09-04T15:47:23.295Z",
+        "updated_at": "2023-09-04T15:10:37.762Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77fa0608-319f-4d19-a76b-a418506736e3",
+        "query": "carrot",
+        "date_created": "2023-09-04T13:59:30.411Z",
+        "created_at": "2023-09-04T05:29:39.780Z",
+        "updated_at": "2023-09-04T12:16:05.725Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08302894-a31c-48e5-9a07-71efa866ef1b",
+        "query": "dog",
+        "date_created": "2023-09-03T21:35:35.327Z",
+        "created_at": "2023-09-04T12:41:44.579Z",
+        "updated_at": "2023-09-04T14:44:03.140Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16e85c33-1fa1-44f0-b6b9-1a4eff874661",
+        "query": "elephant",
+        "date_created": "2023-09-04T02:53:49.487Z",
+        "created_at": "2023-09-04T14:30:45.120Z",
+        "updated_at": "2023-09-04T07:05:09.240Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "4bb67b20-216a-4aec-9f50-b483f3e9dd45",
+        "status": "pending",
+        "date_created": "2023-09-04T17:29:29.169Z",
+        "date_updated": "2023-09-03T21:50:46.883Z",
+        "created_at": "2023-09-04T15:19:33.173Z",
+        "updated_at": "2023-09-04T19:15:42.218Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e80829e-cc58-454a-8492-ad6b9404aeea",
+        "status": "accepted",
+        "date_created": "2023-09-04T15:23:23.853Z",
+        "date_updated": "2023-09-04T13:03:04.856Z",
+        "created_at": "2023-09-04T01:41:17.147Z",
+        "updated_at": "2023-09-04T02:39:02.697Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92001b90-20fe-43a7-b778-62ba9b2447ff",
+        "status": "declined",
+        "date_created": "2023-09-04T03:26:33.854Z",
+        "date_updated": "2023-09-04T05:46:57.693Z",
+        "created_at": "2023-09-04T11:44:21.467Z",
+        "updated_at": "2023-09-03T23:59:02.381Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02d9cfbd-858c-46b3-ba93-aaf7a4bd2495",
+        "status": "expired",
+        "date_created": "2023-09-04T08:33:15.356Z",
+        "date_updated": "2023-09-04T04:35:14.964Z",
+        "created_at": "2023-09-04T12:08:37.703Z",
+        "updated_at": "2023-09-04T20:12:22.516Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0a128f0-6f55-4725-b929-0e70d7576dda",
+        "status": "cancelled",
+        "date_created": "2023-09-03T23:42:13.969Z",
+        "date_updated": "2023-09-04T05:15:51.591Z",
+        "created_at": "2023-09-04T14:07:23.635Z",
+        "updated_at": "2023-09-04T19:07:17.907Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "documentation": [
+      {
+        "id": "1aba7615-550a-4a41-9484-b0dd68f5c84b",
+        "title": "Getting Started Guide",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "date_created": "2023-09-03T23:47:18.918Z",
+        "date_updated": "2023-09-04T04:08:43.651Z",
+        "created_at": "2023-09-04T10:12:13.788Z",
+        "updated_at": "2023-09-04T08:24:57.956Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "627b87e5-616b-47b9-b8ba-a6c117b658dc",
+        "title": "User Manual",
+        "content": "Nulla facilisi. Mauris semper risus a est tempor, et vestibulum tellus volutpat.",
+        "date_created": "2023-09-04T11:47:27.347Z",
+        "date_updated": "2023-09-03T20:52:11.749Z",
+        "created_at": "2023-09-04T10:08:20.483Z",
+        "updated_at": "2023-09-03T23:50:17.606Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ec65119-491a-42c6-9357-f4d6c506de50",
+        "title": "API Reference",
+        "content": "Sed ac odio eleifend, dignissim lectus nec, sagittis ligula.",
+        "date_created": "2023-09-04T20:14:07.075Z",
+        "date_updated": "2023-09-04T14:11:01.975Z",
+        "created_at": "2023-09-04T18:03:09.739Z",
+        "updated_at": "2023-09-04T02:59:55.391Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e0dfcb4-f8de-48ce-8a70-81b25d8c05b1",
+        "title": "Troubleshooting Guide",
+        "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+        "date_created": "2023-09-04T02:40:55.464Z",
+        "date_updated": "2023-09-04T19:51:06.689Z",
+        "created_at": "2023-09-04T12:06:34.823Z",
+        "updated_at": "2023-09-04T15:54:13.422Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d864b083-a239-4c5e-92b7-bf7fe387ab05",
+        "title": "Best Practices",
+        "content": "Vivamus auctor purus in magna cursus, non bibendum urna pulvinar.",
+        "date_created": "2023-09-04T06:15:33.723Z",
+        "date_updated": "2023-09-04T04:35:14.638Z",
+        "created_at": "2023-09-04T04:56:21.910Z",
+        "updated_at": "2023-09-04T06:11:47.005Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "answer": [
+      {
+        "id": "85d6c0a2-e3f3-43d6-80f5-967fb5abc9f7",
+        "content": "Ut in nulla id lectus fermentum lobortis.",
+        "date_created": "2023-09-04T11:42:53.890Z",
+        "created_at": "2023-09-04T19:55:42.079Z",
+        "updated_at": "2023-09-04T18:47:01.194Z",
+        "search_id": "31845348-8c6b-4b40-b6ef-9aabc0ce718f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2769f63c-e9f2-4b7d-998e-7c0e35181a22",
+        "content": "Proin ac elit sit amet arcu malesuada efficitur.",
+        "date_created": "2023-09-04T12:01:35.758Z",
+        "created_at": "2023-09-04T09:36:24.558Z",
+        "updated_at": "2023-09-03T22:25:11.355Z",
+        "search_id": "77fa0608-319f-4d19-a76b-a418506736e3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6a2b0ed-a2ba-49f8-a374-6f78da9e5886",
+        "content": "Suspendisse auctor sapien ut neque cursus, id luctus sem efficitur.",
+        "date_created": "2023-09-04T15:40:03.684Z",
+        "created_at": "2023-09-03T21:39:23.289Z",
+        "updated_at": "2023-09-04T12:48:51.801Z",
+        "search_id": "17c085ec-732b-4b52-866b-ff7e0bd8e615",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbb0ff83-0be8-4b57-8bc0-cc252ef825c4",
+        "content": "Aliquam erat volutpat. Sed id ex non nunc vestibulum auctor.",
+        "date_created": "2023-09-04T18:40:06.361Z",
+        "created_at": "2023-09-04T05:36:12.912Z",
+        "updated_at": "2023-09-04T09:04:51.269Z",
+        "search_id": "16e85c33-1fa1-44f0-b6b9-1a4eff874661",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b84c5c3-6249-4665-ac90-a7e9dfc3892c",
+        "content": "Phasellus non elit sed ex lacinia tincidunt.",
+        "date_created": "2023-09-04T10:33:04.513Z",
+        "created_at": "2023-09-04T20:05:19.008Z",
+        "updated_at": "2023-09-04T00:28:58.694Z",
+        "search_id": "16e85c33-1fa1-44f0-b6b9-1a4eff874661",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "22c5c4d0-467d-4203-8f53-2e5aade9861f",
+        "email": "Devon18@gmail.com",
+        "firstName": "Alberto",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/487.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0ad08b48-a40b-49bb-a318-3d1af2b10d01",
+        "email": "Maynard_Robel-Dickens10@yahoo.com",
+        "firstName": "Magdalena",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4638170",
+        "tenantId": null
+      },
+      {
+        "reference": "8b25a48d-d0ed-4529-a8ee-6ace62e3f4fe",
+        "email": "Lloyd.Ondricka@gmail.com",
+        "firstName": "Ansel",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1192.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f80f226-5f9b-4c0a-8ecb-bcd1c9d607e2",
+        "email": "Meaghan_Homenick-Gerhold@yahoo.com",
+        "firstName": "April",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4327046",
+        "tenantId": null
+      },
+      {
+        "reference": "c90d7010-8cb7-480d-b30d-534c2358cde3",
+        "email": "Keara.Kuhlman-Batz10@yahoo.com",
+        "firstName": "Luis",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85006791",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "649abd90-9f75-46c1-9b9a-0ff45599d5d3",
+        "query": "apple",
+        "date_created": "2023-09-03T21:20:52.895Z",
+        "created_at": "2023-09-04T18:26:58.402Z",
+        "updated_at": "2023-09-04T03:40:57.032Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cab27828-190c-42c6-8942-0cbc0eaf00ec",
+        "query": "car",
+        "date_created": "2023-09-04T07:31:27.050Z",
+        "created_at": "2023-09-04T10:53:33.178Z",
+        "updated_at": "2023-09-03T21:43:51.771Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ddc3b722-61b1-46ca-886b-5ece8c664113",
+        "query": "football",
+        "date_created": "2023-09-04T03:31:05.686Z",
+        "created_at": "2023-09-04T15:03:29.323Z",
+        "updated_at": "2023-09-04T12:05:18.894Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "025bee70-9d22-4a5f-bf52-8c2a8cdba939",
+        "query": "travel",
+        "date_created": "2023-09-04T05:06:25.380Z",
+        "created_at": "2023-09-04T18:06:01.693Z",
+        "updated_at": "2023-09-04T13:09:21.919Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ba6964b-7fbd-4a6d-a582-dc77551cb74b",
+        "query": "music",
+        "date_created": "2023-09-04T19:26:00.046Z",
+        "created_at": "2023-09-04T20:27:17.523Z",
+        "updated_at": "2023-09-03T20:57:41.422Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "b50894b8-047f-434b-abc0-7696330c51f5",
+        "status": "pending",
+        "date_created": "2023-09-03T21:50:26.752Z",
+        "date_updated": "2023-09-04T11:51:51.684Z",
+        "created_at": "2023-09-04T18:02:21.985Z",
+        "updated_at": "2023-09-04T07:55:51.597Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b27d9187-14ea-4960-8052-0e13e906afbd",
+        "status": "accepted",
+        "date_created": "2023-09-04T08:31:48.015Z",
+        "date_updated": "2023-09-04T17:44:35.089Z",
+        "created_at": "2023-09-04T09:09:24.147Z",
+        "updated_at": "2023-09-03T22:18:37.449Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1add4334-9d04-493c-8dd6-0f9cdad8b43d",
+        "status": "declined",
+        "date_created": "2023-09-04T08:18:10.426Z",
+        "date_updated": "2023-09-04T05:44:07.525Z",
+        "created_at": "2023-09-04T10:22:55.662Z",
+        "updated_at": "2023-09-04T03:09:06.407Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98355bfc-36da-41bb-aa47-274608ae9a4e",
+        "status": "expired",
+        "date_created": "2023-09-04T07:31:12.362Z",
+        "date_updated": "2023-09-03T21:31:42.309Z",
+        "created_at": "2023-09-04T14:24:24.330Z",
+        "updated_at": "2023-09-04T06:51:58.078Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d807ce13-d104-4eaa-9d9d-be9d796e43c0",
+        "status": "cancelled",
+        "date_created": "2023-09-04T19:01:15.389Z",
+        "date_updated": "2023-09-04T18:40:51.229Z",
+        "created_at": "2023-09-04T18:37:58.991Z",
+        "updated_at": "2023-09-03T23:05:41.108Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "documentation": [
+      {
+        "id": "0eb3d3f1-e418-4efd-beaa-2b7119089cd4",
+        "title": "Getting Started Guide",
+        "content": "This guide will help you get started with our product",
+        "date_created": "2023-09-04T16:23:36.351Z",
+        "date_updated": "2023-09-04T17:17:14.882Z",
+        "created_at": "2023-09-04T17:46:24.708Z",
+        "updated_at": "2023-09-03T21:41:32.250Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53f3b031-1b8f-4db8-9b19-d2a5347d044c",
+        "title": "User Manual",
+        "content": "Learn how to use our software with this comprehensive user manual",
+        "date_created": "2023-09-04T03:46:23.648Z",
+        "date_updated": "2023-09-04T00:47:02.249Z",
+        "created_at": "2023-09-04T11:44:03.094Z",
+        "updated_at": "2023-09-04T13:25:16.369Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1f862b9-f1a2-4c50-8253-af9b4eb6a0f7",
+        "title": "API Reference",
+        "content": "Refer to this document for detailed information on our API",
+        "date_created": "2023-09-04T15:25:48.460Z",
+        "date_updated": "2023-09-04T18:15:48.588Z",
+        "created_at": "2023-09-04T14:19:21.699Z",
+        "updated_at": "2023-09-04T10:58:04.512Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52e8465f-0fd5-4ecd-8793-73a3b17c0b5b",
+        "title": "Installation Guide",
+        "content": "Follow these instructions to install our application",
+        "date_created": "2023-09-04T18:08:49.448Z",
+        "date_updated": "2023-09-04T12:04:30.062Z",
+        "created_at": "2023-09-04T05:04:12.676Z",
+        "updated_at": "2023-09-03T23:40:47.533Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af41306d-383b-43d7-b733-66bc72a6de3e",
+        "title": "Troubleshooting Guide",
+        "content": "Troubleshoot common issues with the help of this guide",
+        "date_created": "2023-09-04T13:58:30.382Z",
+        "date_updated": "2023-09-04T06:41:48.436Z",
+        "created_at": "2023-09-04T10:38:22.735Z",
+        "updated_at": "2023-09-04T00:28:01.394Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "answer": [
+      {
+        "id": "0b5a2479-bf7a-49f4-95f6-b41bcb23e098",
+        "content": "The answer to your question is...",
+        "date_created": "2023-09-04T16:08:43.059Z",
+        "created_at": "2023-09-04T03:14:05.099Z",
+        "updated_at": "2023-09-04T01:05:14.399Z",
+        "search_id": "025bee70-9d22-4a5f-bf52-8c2a8cdba939",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef8a3ae5-df51-4e98-a238-e51c9cbfd758",
+        "content": "Here's the solution to your problem...",
+        "date_created": "2023-09-04T06:08:02.570Z",
+        "created_at": "2023-09-04T01:52:00.111Z",
+        "updated_at": "2023-09-03T23:52:57.257Z",
+        "search_id": "649abd90-9f75-46c1-9b9a-0ff45599d5d3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9108dcc3-42b3-41bf-a52b-86c83425f1b6",
+        "content": "I can help you with that. The answer is...",
+        "date_created": "2023-09-04T11:32:01.667Z",
+        "created_at": "2023-09-04T14:05:20.929Z",
+        "updated_at": "2023-09-03T23:45:25.617Z",
+        "search_id": "ddc3b722-61b1-46ca-886b-5ece8c664113",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c72681b1-cbb9-446e-98d8-716618035989",
+        "content": "Based on my expertise, the answer is...",
+        "date_created": "2023-09-04T07:16:52.464Z",
+        "created_at": "2023-09-03T21:36:33.343Z",
+        "updated_at": "2023-09-04T10:00:28.977Z",
+        "search_id": "cab27828-190c-42c6-8942-0cbc0eaf00ec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb6daf72-f011-45a8-b98b-1c3a1d813eb9",
+        "content": "I have the answer you're looking for. It is...",
+        "date_created": "2023-09-04T09:17:53.763Z",
+        "created_at": "2023-09-04T11:13:18.299Z",
+        "updated_at": "2023-09-04T04:51:02.064Z",
+        "search_id": "5ba6964b-7fbd-4a6d-a582-dc77551cb74b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "44ffaacb-2bca-4e5e-b720-30195eeb28d6",
+        "email": "Bart.Bayer25@hotmail.com",
+        "firstName": "Wilson",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/991.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8350d24d-7488-46d9-b706-6ea811021de2",
+        "email": "Melyna.Huels@gmail.com",
+        "firstName": "Keon",
+        "lastName": "Brekke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/188.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2814a74f-aac1-4d1d-9cbd-10bb0735c6c7",
+        "email": "Javonte_Jerde88@gmail.com",
+        "firstName": "Kavon",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/413.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "95837eba-17f5-410f-898c-9a41cf3ee06f",
+        "email": "Colby_Rippin-Schoen80@gmail.com",
+        "firstName": "Elton",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/190.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9401d3ea-8e2c-471d-9418-96d7476f4090",
+        "email": "Cheyenne56@gmail.com",
+        "firstName": "Hobart",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62967848",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "eadc9a28-802a-46f5-9d96-3079fc265f90",
+        "query": "apple",
+        "date_created": "2023-09-04T15:10:06.159Z",
+        "created_at": "2023-09-04T05:15:38.908Z",
+        "updated_at": "2023-09-04T13:09:14.571Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc3c0d6a-96dd-402b-9b3a-1807dcbb9547",
+        "query": "car",
+        "date_created": "2023-09-04T16:50:19.388Z",
+        "created_at": "2023-09-04T11:19:03.899Z",
+        "updated_at": "2023-09-04T07:30:14.267Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bed927d4-cd9f-4c53-9aa1-d2d526a39f78",
+        "query": "vacation",
+        "date_created": "2023-09-04T17:47:00.591Z",
+        "created_at": "2023-09-04T02:09:27.453Z",
+        "updated_at": "2023-09-03T21:15:55.129Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afbf3697-2d3d-4955-844a-b29d4ed2ba9b",
+        "query": "restaurant",
+        "date_created": "2023-09-04T08:40:18.496Z",
+        "created_at": "2023-09-04T16:09:44.283Z",
+        "updated_at": "2023-09-04T05:11:25.153Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93338864-8eaf-4d47-acbd-dbc31900161c",
+        "query": "movie",
+        "date_created": "2023-09-03T21:49:39.853Z",
+        "created_at": "2023-09-04T12:31:05.054Z",
+        "updated_at": "2023-09-04T08:29:42.270Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "5ed891ef-8862-427f-bbac-6a4f6bd419c1",
+        "status": "pending",
+        "date_created": "2023-09-03T21:32:30.721Z",
+        "date_updated": "2023-09-04T06:19:15.466Z",
+        "created_at": "2023-09-04T06:27:35.302Z",
+        "updated_at": "2023-09-04T08:41:44.009Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b6b8861-65f3-492a-b1e0-696f6feaa0f8",
+        "status": "accepted",
+        "date_created": "2023-09-04T12:35:16.910Z",
+        "date_updated": "2023-09-04T00:40:17.737Z",
+        "created_at": "2023-09-03T23:19:38.601Z",
+        "updated_at": "2023-09-03T23:08:11.703Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75fc3cad-0613-447a-aaf4-0fdcb6ebf8f1",
+        "status": "declined",
+        "date_created": "2023-09-03T20:30:35.205Z",
+        "date_updated": "2023-09-04T04:40:58.913Z",
+        "created_at": "2023-09-04T04:30:33.527Z",
+        "updated_at": "2023-09-04T20:01:39.814Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a69ffdf3-7271-43fb-80c3-851beacc744c",
+        "status": "expired",
+        "date_created": "2023-09-04T16:17:52.214Z",
+        "date_updated": "2023-09-03T21:26:43.228Z",
+        "created_at": "2023-09-04T07:17:44.663Z",
+        "updated_at": "2023-09-04T20:05:12.549Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0da09151-f7ce-4c55-8007-778e081be095",
+        "status": "canceled",
+        "date_created": "2023-09-04T12:49:07.248Z",
+        "date_updated": "2023-09-04T07:30:57.851Z",
+        "created_at": "2023-09-04T09:09:30.227Z",
+        "updated_at": "2023-09-04T09:23:49.426Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "documentation": [
+      {
+        "id": "30d5571d-2f18-4801-9402-fa8f8ddad073",
+        "title": "Getting Started Guide",
+        "content": "Learn how to use our product and get started quickly",
+        "date_created": "2023-09-04T19:03:06.935Z",
+        "date_updated": "2023-09-04T14:42:14.667Z",
+        "created_at": "2023-09-04T09:01:52.765Z",
+        "updated_at": "2023-09-04T05:30:40.107Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bde0a5a0-9ee0-406a-aa1f-3119e845e3ca",
+        "title": "User Manual",
+        "content": "Detailed instructions on all features and functionalities",
+        "date_created": "2023-09-04T07:05:15.707Z",
+        "date_updated": "2023-09-04T03:48:44.563Z",
+        "created_at": "2023-09-04T05:32:54.770Z",
+        "updated_at": "2023-09-04T19:32:51.555Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e7016ff-6dc2-4a95-9983-05b363eb83b9",
+        "title": "API Reference",
+        "content": "Comprehensive documentation for developers",
+        "date_created": "2023-09-04T19:49:15.587Z",
+        "date_updated": "2023-09-04T00:29:45.820Z",
+        "created_at": "2023-09-04T11:02:45.072Z",
+        "updated_at": "2023-09-04T08:12:22.404Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f437c16-9a38-4524-85e0-569b6de90036",
+        "title": "FAQs",
+        "content": "Frequently asked questions and answers",
+        "date_created": "2023-09-04T18:14:36.310Z",
+        "date_updated": "2023-09-04T11:45:02.595Z",
+        "created_at": "2023-09-04T17:44:24.683Z",
+        "updated_at": "2023-09-04T06:15:37.769Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbdc2f8f-d247-4061-8040-ab5f9dfb3587",
+        "title": "Troubleshooting Guide",
+        "content": "Troubleshooting tips and solutions",
+        "date_created": "2023-09-04T10:56:09.761Z",
+        "date_updated": "2023-09-04T09:03:11.365Z",
+        "created_at": "2023-09-04T17:29:19.679Z",
+        "updated_at": "2023-09-04T02:04:42.359Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "answer": [
+      {
+        "id": "ff772692-f62c-4e82-9e05-02765acb3e58",
+        "content": "Here is the answer to your question",
+        "date_created": "2023-09-04T08:19:00.443Z",
+        "created_at": "2023-09-04T16:36:12.877Z",
+        "updated_at": "2023-09-04T15:53:09.256Z",
+        "search_id": "afbf3697-2d3d-4955-844a-b29d4ed2ba9b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22f2b3e1-e6ba-4a67-9136-2c455b85457a",
+        "content": "I can help you with that",
+        "date_created": "2023-09-04T02:44:29.910Z",
+        "created_at": "2023-09-04T11:48:54.038Z",
+        "updated_at": "2023-09-04T03:46:10.468Z",
+        "search_id": "eadc9a28-802a-46f5-9d96-3079fc265f90",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2fb4f19-e2c1-4eb5-b033-71833b53daf9",
+        "content": "Let me provide you with the information you need",
+        "date_created": "2023-09-03T22:59:06.097Z",
+        "created_at": "2023-09-04T15:40:47.378Z",
+        "updated_at": "2023-09-04T00:18:59.832Z",
+        "search_id": "afbf3697-2d3d-4955-844a-b29d4ed2ba9b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14dfa070-d2be-4d85-91fa-28ba51f5c1c5",
+        "content": "This is the solution to your problem",
+        "date_created": "2023-09-04T10:32:41.522Z",
+        "created_at": "2023-09-03T22:45:35.880Z",
+        "updated_at": "2023-09-04T17:47:33.385Z",
+        "search_id": "bed927d4-cd9f-4c53-9aa1-d2d526a39f78",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e73526c2-cd53-4095-8991-69449af3ad73",
+        "content": "I have the answer you're looking for",
+        "date_created": "2023-09-04T11:02:39.732Z",
+        "created_at": "2023-09-04T00:10:41.087Z",
+        "updated_at": "2023-09-04T05:53:34.824Z",
+        "search_id": "93338864-8eaf-4d47-acbd-dbc31900161c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8e872bba-c29f-4434-ad89-f8678d359c07",
+        "email": "Jeremie_Mohr69@yahoo.com",
+        "firstName": "Dudley",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31520487",
+        "tenantId": null
+      },
+      {
+        "reference": "fdaf9628-8451-4242-bd6c-2286ec4e58be",
+        "email": "Jordane.Kassulke94@hotmail.com",
+        "firstName": "Conrad",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/190.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "53150113-1e67-4964-ac95-f02e489d35ef",
+        "email": "Nicholas2@yahoo.com",
+        "firstName": "Cleveland",
+        "lastName": "Conn-Hagenes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44887815",
+        "tenantId": null
+      },
+      {
+        "reference": "2dfaca2b-14e4-475d-b22e-f0141270f435",
+        "email": "Sadie21@yahoo.com",
+        "firstName": "Eleazar",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40983308",
+        "tenantId": null
+      },
+      {
+        "reference": "ae81fa29-cf52-4ccd-a454-16752f0f22de",
+        "email": "Unique_Harber@gmail.com",
+        "firstName": "Chelsie",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24903273",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "cedf2ea0-deea-4825-94b2-2e4a615f78b1",
+        "query": "apple",
+        "date_created": "2023-09-04T10:02:02.250Z",
+        "created_at": "2023-09-04T06:51:18.729Z",
+        "updated_at": "2023-09-04T00:38:33.648Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71c792a3-962e-4ffe-8d7c-8a501df06b39",
+        "query": "banana",
+        "date_created": "2023-09-04T02:15:30.023Z",
+        "created_at": "2023-09-03T21:49:59.330Z",
+        "updated_at": "2023-09-03T22:50:25.574Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b5164f3-1d1f-45cd-997d-7a1bf4b29705",
+        "query": "orange",
+        "date_created": "2023-09-03T21:57:42.846Z",
+        "created_at": "2023-09-04T04:13:08.571Z",
+        "updated_at": "2023-09-04T05:07:00.675Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6078b5ea-e26b-474e-b2b1-00260e997438",
+        "query": "grape",
+        "date_created": "2023-09-04T04:15:08.573Z",
+        "created_at": "2023-09-04T01:01:32.698Z",
+        "updated_at": "2023-09-04T13:18:05.216Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f4c942a-b58f-4af4-a9a6-ffec892d4233",
+        "query": "kiwi",
+        "date_created": "2023-09-04T07:09:39.244Z",
+        "created_at": "2023-09-04T15:36:28.643Z",
+        "updated_at": "2023-09-04T07:46:41.077Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "11787db0-11d6-494d-a281-c88a4585b889",
+        "status": "pending",
+        "date_created": "2023-09-04T08:54:45.185Z",
+        "date_updated": "2023-09-04T11:54:52.791Z",
+        "created_at": "2023-09-04T10:35:54.068Z",
+        "updated_at": "2023-09-04T02:34:57.839Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ec0fd67-5b28-48b8-8a24-fda2ddfd88d7",
+        "status": "accepted",
+        "date_created": "2023-09-04T08:33:14.416Z",
+        "date_updated": "2023-09-04T09:13:55.486Z",
+        "created_at": "2023-09-04T08:19:00.957Z",
+        "updated_at": "2023-09-03T22:36:47.826Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb7d1fd2-2fdb-42be-bd76-7464ade8105c",
+        "status": "declined",
+        "date_created": "2023-09-04T08:05:39.145Z",
+        "date_updated": "2023-09-04T01:13:28.683Z",
+        "created_at": "2023-09-04T19:08:57.060Z",
+        "updated_at": "2023-09-04T02:55:58.494Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47e3534a-3fbc-4e0b-8a62-0f75a60895c5",
+        "status": "sent",
+        "date_created": "2023-09-04T02:48:51.217Z",
+        "date_updated": "2023-09-04T08:18:53.955Z",
+        "created_at": "2023-09-04T13:22:53.731Z",
+        "updated_at": "2023-09-04T04:58:10.705Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "635fcf91-8f3e-4159-aaec-8e34c3408fe6",
+        "status": "expired",
+        "date_created": "2023-09-04T17:47:09.527Z",
+        "date_updated": "2023-09-04T01:52:53.667Z",
+        "created_at": "2023-09-04T06:59:44.803Z",
+        "updated_at": "2023-09-04T09:34:00.230Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "documentation": [
+      {
+        "id": "61a8443b-68c8-47c6-8bf0-122f172164bc",
+        "title": "Getting Started Guide",
+        "content": "This guide will help you get started with our product.",
+        "date_created": "2023-09-04T11:22:47.502Z",
+        "date_updated": "2023-09-04T19:54:06.188Z",
+        "created_at": "2023-09-04T05:13:06.985Z",
+        "updated_at": "2023-09-04T14:59:29.529Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64d11cab-6e6f-4f7e-a3b5-81034f0adffa",
+        "title": "User Manual",
+        "content": "The user manual provides detailed instructions on how to use our software.",
+        "date_created": "2023-09-04T13:42:43.238Z",
+        "date_updated": "2023-09-04T10:58:53.349Z",
+        "created_at": "2023-09-04T11:35:10.419Z",
+        "updated_at": "2023-09-04T05:28:07.002Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bed7d29-50da-4c47-acfa-cc49f364641d",
+        "title": "API Reference",
+        "content": "Refer to the API reference for information on our APIs.",
+        "date_created": "2023-09-04T05:45:22.564Z",
+        "date_updated": "2023-09-04T03:51:06.247Z",
+        "created_at": "2023-09-04T04:03:51.263Z",
+        "updated_at": "2023-09-03T21:20:00.093Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6591826-23b1-437f-8f2f-bb6aabf837b3",
+        "title": "Troubleshooting Guide",
+        "content": "Troubleshoot common issues using this guide.",
+        "date_created": "2023-09-04T10:23:04.070Z",
+        "date_updated": "2023-09-04T00:41:21.388Z",
+        "created_at": "2023-09-03T22:20:58.734Z",
+        "updated_at": "2023-09-04T15:42:38.356Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64aeb23f-7ffc-4bfc-a1db-0b8165670289",
+        "title": "Best Practices",
+        "content": "Learn the best practices for using our product.",
+        "date_created": "2023-09-04T01:33:21.285Z",
+        "date_updated": "2023-09-04T07:28:17.116Z",
+        "created_at": "2023-09-04T09:52:26.411Z",
+        "updated_at": "2023-09-04T12:16:59.743Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "answer": [
+      {
+        "id": "986826c4-6f10-441d-b9de-3ae968c73d05",
+        "content": "Here is the answer to your question.",
+        "date_created": "2023-09-04T13:53:46.912Z",
+        "created_at": "2023-09-04T17:47:30.252Z",
+        "updated_at": "2023-09-04T12:45:26.783Z",
+        "search_id": "71c792a3-962e-4ffe-8d7c-8a501df06b39",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98a5c5f5-c5ff-474b-8064-b940ef662e71",
+        "content": "I have found a solution for you.",
+        "date_created": "2023-09-04T08:24:07.720Z",
+        "created_at": "2023-09-03T21:30:16.954Z",
+        "updated_at": "2023-09-04T14:04:22.015Z",
+        "search_id": "6078b5ea-e26b-474e-b2b1-00260e997438",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ecfaa40-05a2-475b-b7b8-4e9d5b7f92cd",
+        "content": "This is the recommended approach.",
+        "date_created": "2023-09-04T17:29:42.420Z",
+        "created_at": "2023-09-04T09:05:40.181Z",
+        "updated_at": "2023-09-04T00:25:58.988Z",
+        "search_id": "6f4c942a-b58f-4af4-a9a6-ffec892d4233",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74fc866d-e11a-48bb-9e08-577afef11743",
+        "content": "Please try the following steps.",
+        "date_created": "2023-09-04T02:17:36.034Z",
+        "created_at": "2023-09-04T13:16:04.730Z",
+        "updated_at": "2023-09-03T21:20:27.172Z",
+        "search_id": "0b5164f3-1d1f-45cd-997d-7a1bf4b29705",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c7ef43a-433c-4e7a-bcc1-38d8f28dc5dc",
+        "content": "Let me assist you with this.",
+        "date_created": "2023-09-04T06:25:55.826Z",
+        "created_at": "2023-09-04T10:58:53.363Z",
+        "updated_at": "2023-09-03T21:08:38.065Z",
+        "search_id": "6f4c942a-b58f-4af4-a9a6-ffec892d4233",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3c27bd53-ae2b-4f98-a5d2-4ac3752b0779",
+        "email": "Annette_Block@hotmail.com",
+        "firstName": "Lucinda",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/825.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a87b8932-c08d-4f97-8ede-bc1da5d02557",
+        "email": "Gerson_White@hotmail.com",
+        "firstName": "Nickolas",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78414492",
+        "tenantId": null
+      },
+      {
+        "reference": "3f984a18-59dc-4a21-93e9-d4fd713846cd",
+        "email": "Minerva_Monahan88@gmail.com",
+        "firstName": "Amanda",
+        "lastName": "McKenzie-Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82797669",
+        "tenantId": null
+      },
+      {
+        "reference": "a1dba5a9-46c3-4d50-8363-1385a5bd073e",
+        "email": "Tianna_Conn@gmail.com",
+        "firstName": "Walker",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72326625",
+        "tenantId": null
+      },
+      {
+        "reference": "0849d71f-343b-40ef-8fb7-9da15d7d2c29",
+        "email": "Elda_Yost21@hotmail.com",
+        "firstName": "Kip",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/479.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "990c56bd-7f8b-4dc1-bab9-183fb8a59201",
+        "query": "apple",
+        "date_created": "2023-09-04T17:08:59.156Z",
+        "created_at": "2023-09-04T18:08:04.572Z",
+        "updated_at": "2023-09-04T16:07:11.733Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4024156d-81e4-44f6-9764-c52c7e7c46d6",
+        "query": "banana",
+        "date_created": "2023-09-03T20:41:13.479Z",
+        "created_at": "2023-09-04T17:07:34.395Z",
+        "updated_at": "2023-09-04T08:17:09.928Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24ec28ad-5800-4cc9-a71c-26b955ad2dc3",
+        "query": "orange",
+        "date_created": "2023-09-04T09:33:04.950Z",
+        "created_at": "2023-09-04T12:57:16.325Z",
+        "updated_at": "2023-09-04T07:01:48.179Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbed1e1f-3a45-4c32-9c90-d4a95bde5712",
+        "query": "grape",
+        "date_created": "2023-09-03T23:54:21.817Z",
+        "created_at": "2023-09-04T09:11:23.469Z",
+        "updated_at": "2023-09-03T22:51:14.521Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcf1672b-a090-47af-b099-0cfbb696ac8c",
+        "query": "watermelon",
+        "date_created": "2023-09-03T23:48:33.342Z",
+        "created_at": "2023-09-04T01:10:56.522Z",
+        "updated_at": "2023-09-04T00:13:54.562Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "5cb461fd-98c0-459a-b1a9-320708a1266c",
+        "status": "pending",
+        "date_created": "2023-09-04T06:26:46.045Z",
+        "date_updated": "2023-09-04T02:56:27.149Z",
+        "created_at": "2023-09-04T19:49:12.283Z",
+        "updated_at": "2023-09-03T22:14:37.142Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e28922c-87fa-4bb9-a0de-4419f2378d13",
+        "status": "accepted",
+        "date_created": "2023-09-04T02:04:13.962Z",
+        "date_updated": "2023-09-04T07:47:34.810Z",
+        "created_at": "2023-09-04T07:28:26.721Z",
+        "updated_at": "2023-09-03T22:03:43.116Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1be5c8e0-120c-4ed4-a430-10833f588c42",
+        "status": "declined",
+        "date_created": "2023-09-04T10:26:27.370Z",
+        "date_updated": "2023-09-04T02:07:10.348Z",
+        "created_at": "2023-09-04T10:04:00.835Z",
+        "updated_at": "2023-09-04T16:17:45.998Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8591d36-4e85-40f4-a51e-37f21e1fe482",
+        "status": "expired",
+        "date_created": "2023-09-03T23:44:21.142Z",
+        "date_updated": "2023-09-04T08:18:24.069Z",
+        "created_at": "2023-09-04T04:21:55.573Z",
+        "updated_at": "2023-09-04T09:01:17.749Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc0e7129-4c24-4eb7-8bcc-f76a14c947bc",
+        "status": "cancelled",
+        "date_created": "2023-09-04T19:50:29.826Z",
+        "date_updated": "2023-09-03T23:04:00.825Z",
+        "created_at": "2023-09-04T05:06:11.538Z",
+        "updated_at": "2023-09-04T15:33:49.441Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "documentation": [
+      {
+        "id": "b25208c6-183f-4250-975e-f2e97999f7ed",
+        "title": "Getting Started Guide",
+        "content": "This guide will help you get started with our product.",
+        "date_created": "2023-09-03T23:55:57.978Z",
+        "date_updated": "2023-09-04T12:22:44.394Z",
+        "created_at": "2023-09-03T20:32:44.601Z",
+        "updated_at": "2023-09-04T10:12:42.459Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c60b51f7-9fa0-4fb8-b0d3-18dbb4ad4a55",
+        "title": "User Manual",
+        "content": "The user manual provides detailed instructions on how to use our software.",
+        "date_created": "2023-09-04T08:03:14.285Z",
+        "date_updated": "2023-09-04T17:24:57.529Z",
+        "created_at": "2023-09-04T00:57:46.251Z",
+        "updated_at": "2023-09-04T11:36:52.722Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18500994-729c-48ae-b117-cc72ef219833",
+        "title": "API Reference",
+        "content": "Refer to the API reference for information on integrating our services.",
+        "date_created": "2023-09-04T07:02:36.612Z",
+        "date_updated": "2023-09-04T02:30:15.519Z",
+        "created_at": "2023-09-04T01:47:27.811Z",
+        "updated_at": "2023-09-04T08:42:45.462Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f58e1ea-a1e5-40de-9c47-0760f66b73e5",
+        "title": "Troubleshooting Guide",
+        "content": "Troubleshoot common issues with our troubleshooting guide.",
+        "date_created": "2023-09-04T06:20:34.951Z",
+        "date_updated": "2023-09-04T06:35:24.780Z",
+        "created_at": "2023-09-04T01:44:43.537Z",
+        "updated_at": "2023-09-04T05:34:13.500Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8c6057c-f5af-42ba-849c-d86b4b7588a9",
+        "title": "Best Practices",
+        "content": "Learn the best practices for optimal performance.",
+        "date_created": "2023-09-03T22:11:07.977Z",
+        "date_updated": "2023-09-04T13:40:18.766Z",
+        "created_at": "2023-09-04T00:57:07.359Z",
+        "updated_at": "2023-09-04T11:00:25.529Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "answer": [
+      {
+        "id": "0cb02889-ed05-46dc-ae4d-d3f6249bb5c8",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "date_created": "2023-09-03T21:40:34.164Z",
+        "created_at": "2023-09-04T04:17:16.238Z",
+        "updated_at": "2023-09-04T16:51:53.419Z",
+        "search_id": "bbed1e1f-3a45-4c32-9c90-d4a95bde5712",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f5187b8-1ac0-4948-b703-c641ac5bd328",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "date_created": "2023-09-04T03:43:46.158Z",
+        "created_at": "2023-09-04T13:23:22.189Z",
+        "updated_at": "2023-09-03T22:48:05.129Z",
+        "search_id": "bbed1e1f-3a45-4c32-9c90-d4a95bde5712",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "311116e9-c270-4637-97ea-450ed590d98f",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "date_created": "2023-09-04T03:44:14.642Z",
+        "created_at": "2023-09-04T07:29:40.197Z",
+        "updated_at": "2023-09-04T06:44:46.788Z",
+        "search_id": "24ec28ad-5800-4cc9-a71c-26b955ad2dc3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9007cc54-4927-4314-aa4e-1d7cf42168d6",
+        "content": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+        "date_created": "2023-09-04T16:50:45.600Z",
+        "created_at": "2023-09-04T16:28:08.798Z",
+        "updated_at": "2023-09-04T14:12:00.344Z",
+        "search_id": "24ec28ad-5800-4cc9-a71c-26b955ad2dc3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08f7a1a3-e222-41c0-9a79-28c7dd00fdc9",
+        "content": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+        "date_created": "2023-09-04T01:48:27.587Z",
+        "created_at": "2023-09-04T02:25:42.496Z",
+        "updated_at": "2023-09-04T03:36:26.533Z",
+        "search_id": "24ec28ad-5800-4cc9-a71c-26b955ad2dc3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2ba01eee-e673-44bb-88d1-4773a95f0278",
+        "email": "Granville.Hansen58@gmail.com",
+        "firstName": "Kira",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50852644",
+        "tenantId": null
+      },
+      {
+        "reference": "3b97819f-1fcc-4b8b-b66a-54ab448848bb",
+        "email": "Fleta_Murazik93@gmail.com",
+        "firstName": "Aurore",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/362.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6e2f2b00-7897-4a08-80cd-c685d2dba837",
+        "email": "Estrella98@yahoo.com",
+        "firstName": "Giuseppe",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22930832",
+        "tenantId": null
+      },
+      {
+        "reference": "cf430bb7-f327-475e-a18e-01ffe06122b2",
+        "email": "Christa.Blick62@gmail.com",
+        "firstName": "Jameson",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/634.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6dc0fe0d-4404-4a2d-9637-fa979a9155dd",
+        "email": "Micah_Predovic@yahoo.com",
+        "firstName": "Ona",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/251.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "search": [
+      {
+        "id": "8eedce28-2ad9-4c63-b4ff-747d1eff067e",
+        "query": "apple",
+        "date_created": "2023-09-04T15:40:46.095Z",
+        "created_at": "2023-09-03T23:35:10.260Z",
+        "updated_at": "2023-09-04T07:56:26.545Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f79029cf-3386-4dfb-b080-5a389e2b9417",
+        "query": "car",
+        "date_created": "2023-09-04T18:18:14.367Z",
+        "created_at": "2023-09-04T14:44:22.734Z",
+        "updated_at": "2023-09-04T18:51:38.148Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a25788a-868e-4c73-96fa-6cabb410e026",
+        "query": "music",
+        "date_created": "2023-09-04T08:43:34.181Z",
+        "created_at": "2023-09-04T17:16:41.361Z",
+        "updated_at": "2023-09-04T07:33:00.264Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34921fa5-884e-4058-92e9-008c9e4effe6",
+        "query": "travel",
+        "date_created": "2023-09-03T21:38:37.172Z",
+        "created_at": "2023-09-04T16:44:58.123Z",
+        "updated_at": "2023-09-04T17:19:39.231Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d12b7cf8-b978-4874-9328-af4bf32dd710",
+        "query": "food",
+        "date_created": "2023-09-04T19:19:46.278Z",
+        "created_at": "2023-09-04T14:04:42.737Z",
+        "updated_at": "2023-09-04T12:09:30.816Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "96876c92-b4b9-44a8-91a3-82b5e181a81b",
+        "status": "pending",
+        "date_created": "2023-09-04T02:59:32.614Z",
+        "date_updated": "2023-09-04T09:25:10.441Z",
+        "created_at": "2023-09-04T02:26:14.727Z",
+        "updated_at": "2023-09-04T04:50:00.574Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6439e659-acc9-477e-9dab-1788c7fdd139",
+        "status": "accepted",
+        "date_created": "2023-09-04T00:54:22.682Z",
+        "date_updated": "2023-09-04T10:17:41.581Z",
+        "created_at": "2023-09-03T22:26:06.690Z",
+        "updated_at": "2023-09-04T11:56:42.984Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac21c7c5-e59b-4cc2-b5f2-1ed4c019c5f8",
+        "status": "declined",
+        "date_created": "2023-09-04T13:53:21.904Z",
+        "date_updated": "2023-09-04T03:36:14.268Z",
+        "created_at": "2023-09-04T03:53:37.407Z",
+        "updated_at": "2023-09-03T22:37:24.692Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84239fde-022c-407e-bc19-d1bbc221b365",
+        "status": "sent",
+        "date_created": "2023-09-04T04:56:52.335Z",
+        "date_updated": "2023-09-04T04:02:21.239Z",
+        "created_at": "2023-09-04T13:30:09.354Z",
+        "updated_at": "2023-09-04T02:27:11.092Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e55ade01-7cd2-4a63-9570-55d8ed38ccbf",
+        "status": "expired",
+        "date_created": "2023-09-04T07:22:51.021Z",
+        "date_updated": "2023-09-04T05:33:40.327Z",
+        "created_at": "2023-09-04T00:37:09.058Z",
+        "updated_at": "2023-09-04T13:56:03.720Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "documentation": [
+      {
+        "id": "c7d86461-2800-48b2-9da7-bc35d3025fa7",
+        "title": "Getting Started Guide",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "date_created": "2023-09-03T23:33:19.965Z",
+        "date_updated": "2023-09-04T06:51:38.719Z",
+        "created_at": "2023-09-04T03:04:37.862Z",
+        "updated_at": "2023-09-04T20:20:24.986Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e33b2993-92bc-46ba-84ed-c880fb80c4dd",
+        "title": "User Manual",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "date_created": "2023-09-04T00:07:23.536Z",
+        "date_updated": "2023-09-04T11:30:11.716Z",
+        "created_at": "2023-09-03T22:18:27.398Z",
+        "updated_at": "2023-09-04T14:36:54.654Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3d1e718-f7a9-4051-a84f-22c9d670d883",
+        "title": "API Reference",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "date_created": "2023-09-04T20:14:06.841Z",
+        "date_updated": "2023-09-03T23:17:41.630Z",
+        "created_at": "2023-09-04T18:05:16.432Z",
+        "updated_at": "2023-09-03T21:54:28.682Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1cb3808f-096e-4da2-a4c7-f41124ff5f46",
+        "title": "Troubleshooting Guide",
+        "content": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+        "date_created": "2023-09-04T06:06:17.121Z",
+        "date_updated": "2023-09-04T13:39:45.049Z",
+        "created_at": "2023-09-04T15:25:52.359Z",
+        "updated_at": "2023-09-04T16:58:30.488Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1dfc1e0-0529-4e25-92ba-2b6067c54554",
+        "title": "Best Practices",
+        "content": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+        "date_created": "2023-09-04T07:58:57.372Z",
+        "date_updated": "2023-09-04T12:22:38.155Z",
+        "created_at": "2023-09-04T14:29:32.586Z",
+        "updated_at": "2023-09-04T05:25:33.948Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "answer": [
+      {
+        "id": "fe6254d0-db5b-4bfd-8c2d-0ab11a252b71",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "date_created": "2023-09-03T22:11:46.225Z",
+        "created_at": "2023-09-04T17:22:54.389Z",
+        "updated_at": "2023-09-04T02:44:52.830Z",
+        "search_id": "1a25788a-868e-4c73-96fa-6cabb410e026",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a1d5bbc-8e0b-4358-9752-293d988499a7",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "date_created": "2023-09-04T03:25:30.483Z",
+        "created_at": "2023-09-04T13:17:56.076Z",
+        "updated_at": "2023-09-04T18:43:26.008Z",
+        "search_id": "f79029cf-3386-4dfb-b080-5a389e2b9417",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42afd90b-64be-4f81-bbf4-0f5f2f56331d",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "date_created": "2023-09-04T01:24:29.326Z",
+        "created_at": "2023-09-04T00:13:42.166Z",
+        "updated_at": "2023-09-04T00:30:07.433Z",
+        "search_id": "8eedce28-2ad9-4c63-b4ff-747d1eff067e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1e57bd0-2d78-4b3c-93c1-0871d1d64a82",
+        "content": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+        "date_created": "2023-09-04T14:55:57.717Z",
+        "created_at": "2023-09-04T17:14:07.783Z",
+        "updated_at": "2023-09-04T02:35:35.131Z",
+        "search_id": "34921fa5-884e-4058-92e9-008c9e4effe6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e06c375-df3d-4752-bc88-ba7c18b726a9",
+        "content": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+        "date_created": "2023-09-04T17:13:35.296Z",
+        "created_at": "2023-09-04T12:45:25.298Z",
+        "updated_at": "2023-09-04T00:59:08.304Z",
+        "search_id": "34921fa5-884e-4058-92e9-008c9e4effe6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "da661fef-267b-485b-b69b-a1794e2aea6d",
+        "email": "Astrid_Sawayn@gmail.com",
+        "firstName": "Brenda",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81282622",
+        "tenantId": null
+      },
+      {
+        "reference": "455acccd-5a34-4226-837d-1a3f80825dfb",
+        "email": "Jarret_Fahey@hotmail.com",
+        "firstName": "Shanon",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/665.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c388f0fc-2754-4ad1-9b4e-7bc72e4ce5b3",
+        "email": "Efrain.Harvey68@gmail.com",
+        "firstName": "Charles",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1231.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8a00d3ea-db2b-4ab9-87d1-f8510d878e1b",
+        "email": "Drew33@hotmail.com",
+        "firstName": "Arianna",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90152839",
+        "tenantId": null
+      },
+      {
+        "reference": "f3ec9055-f705-4bd6-a15a-3d607da60a9a",
+        "email": "Annabelle97@hotmail.com",
+        "firstName": "Lia",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85678512",
+        "tenantId": null
+      }
+    ]
+  }
+]
