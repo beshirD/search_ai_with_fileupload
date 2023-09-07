@@ -5,7 +5,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
 import { SupabaseVectorStore } from 'langchain/vectorstores/supabase';
 import { OpenAIEmbeddings } from 'langchain/embeddings/openai';
-
+import {pdfFile, txtFile} from '../../../lib/formatHandler/index'
 const supabaseUrl = process.env.SUPABASE_BASE_URL;
 const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const openaikey = process.env.OPENAI_API_KEY;
@@ -43,22 +43,28 @@ export default async (req: any, res: any) => {
     }
 
     // console.log(file, 'the input');
-    const text = file?.buffer?.toString('utf-8');
-    // const text = fs.readFileSync('pizzareview.txt', 'utf8');
-    const textSplitter = new RecursiveCharacterTextSplitter({
-      chunkSize: 200,
-      chunkOverlap: 50,
-    });
-    const docs = await textSplitter.createDocuments([text]);
+    const fileParts = file.originalname.split('.');
+    const fileExtension = fileParts[fileParts.length - 1];
+    console.log(fileExtension, 'the extention to be');
+    let docs;
+    if(fileExtension == "txt"){
+        docs = await txtFile(file)
+        console.log(docs,"the docs")
+    }
+    else if(fileExtension == "pdf"){
+        docs = await pdfFile(file)
+        console.log(docs,"test 2")
+    }
+    
+    // const text = file?.buffer?.toString('utf-8');
+    // const textSplitter = new RecursiveCharacterTextSplitter({
+    //   chunkSize: 200,
+    //   chunkOverlap: 50,
+    // });
+    // const docs = await textSplitter.createDocuments([text]);
 
-    // const fileBuffer = file.buffer;
-    // const fileContent = file.buffer.toString('utf-8');
-    // console.log(fileContent, 'fileContent');
-    const embeddings = await createEmbeddings(docs);
-    // console.log('Uploaded file size:', fileBuffer.length);
-
-    //then we will add this embedded data to supabase of docs table
-    //supabase logic goes here
+    // console.log(docs,"the answer");
+    // const embeddings = await createEmbeddings(docs);
 
     return res.status(200).json({ message: 'File uploaded successfully' });
   });
@@ -67,7 +73,7 @@ export default async (req: any, res: any) => {
 const createEmbeddings = async (docs: any) => {
   // const fileBuffer = input.buffer;
 
-  const vectorStore = await SupabaseVectorStore.fromDocuments(docs, new OpenAIEmbeddings({openAIApiKey:openaikey}), {
+  const vectorStore = await SupabaseVectorStore.fromDocuments(docs, new OpenAIEmbeddings({ openAIApiKey: openaikey }), {
     client,
     tableName: 'documents',
     queryName: 'match_documents',

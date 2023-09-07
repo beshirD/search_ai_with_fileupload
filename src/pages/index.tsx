@@ -10,6 +10,7 @@ import { useBanner } from 'lib/hooks/use-banner';
 import ConfigureCodeBanner from 'components/configure-code-banner';
 import { appConfig } from 'config';
 import FileUpload from 'components/file-upload';
+import { Search } from 'components/test-search';
 
 const Card: FC<{
   userTypeName: string;
@@ -121,6 +122,8 @@ function HomePage() {
           padding={{ base: '32px 16px', lg: '32px 64px', xl: '64px 128px' }}
           overflow="auto"
         >
+        <Search />
+
           <Box>
             <Heading mb={{ base: '12px', lg: '20px' }} size="2xl">
               {`documentation-search-ai`}

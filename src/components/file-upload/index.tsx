@@ -28,31 +28,12 @@ const FileUpload = () => {
       console.error('Error uploading file:', error);
     }
   };
-  const handleSearch = async () => {
-    console.log(question, 'the query here');
-
-    try {
-      const reqeustBody ={query:question}
-      const response =  await axios.post('/api/testupload/search', reqeustBody);
-      console.log(response ,"the reponse haha");
-      setResponse(response?.data?.data);
-    } catch (error) {
-      console.log("error:",error)
-    }
-  };
 
   return (
     <div>
-      <input type="file" accept=".txt" onChange={handleFileChange} />
+      <input type="file"  onChange={handleFileChange} />
       <button onClick={handleUpload}>Upload File</button>
-      <div>
-        <h1 >enter the query here</h1>
-        <input style={{border:"1px solid red"}} type="text" onChange={(e) => setQuestion(e.target.value)} />
-        <button style={{border:"2px solid"}} onClick={handleSearch}>search </button>
-        <div style={{overflow:"scroll",height:"300px"}}>
-        <p style={{overflow:"scroll",height:"300px"}}>{response}</p>
-        </div>
-      </div>
+      
     </div>
   );
 };
