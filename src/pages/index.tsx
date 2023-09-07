@@ -111,8 +111,6 @@ function HomePage() {
               </Link>
             </Text>
           </Box>
-          
-
         </Box>
         <Box
           display="flex"
@@ -138,8 +136,7 @@ function HomePage() {
                 <Card userTypeName="Owner" type="owner" abilities={appConfig.ownerAbilities} />
               </Stack>
             </Box>
-        <FileUpload />
-
+            {/* <FileUpload /> */}
           </Box>
           <Box pt={4}>
             <HelpBox {...helpBoxDisclosure} />
@@ -153,5 +150,5 @@ function HomePage() {
 
 export default requireNextAuth({
   redirectIfAuthenticated: true,
-  redirectTo: '/dashboard',
+  redirectTo: '/searches',
 })(HomePage);
