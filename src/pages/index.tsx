@@ -9,6 +9,7 @@ import { HelpBox } from 'components/help-box';
 import { useBanner } from 'lib/hooks/use-banner';
 import ConfigureCodeBanner from 'components/configure-code-banner';
 import { appConfig } from 'config';
+import FileUpload from 'components/file-upload';
 
 const Card: FC<{
   userTypeName: string;
@@ -110,6 +111,8 @@ function HomePage() {
               </Link>
             </Text>
           </Box>
+          
+
         </Box>
         <Box
           display="flex"
@@ -135,6 +138,8 @@ function HomePage() {
                 <Card userTypeName="Owner" type="owner" abilities={appConfig.ownerAbilities} />
               </Stack>
             </Box>
+        <FileUpload />
+
           </Box>
           <Box pt={4}>
             <HelpBox {...helpBoxDisclosure} />
