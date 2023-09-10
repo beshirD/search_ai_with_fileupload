@@ -28,7 +28,7 @@ import { AccessInfo } from 'components/access-info';
 import { getSearches, deleteSearchById } from 'apiSdk/searches';
 import { SearchInterface } from 'interfaces/search';
 import FileUpload from 'components/file-upload';
-
+import TabbedContent from 'components/tabs';
 type ColumnType = ColumnDef<SearchInterface, unknown>;
 
 interface SearchListPageProps {
@@ -82,23 +82,23 @@ export function SearchListPage(props: SearchListPageProps) {
     [params.pageSize, params.pageNumber, params.searchTerm, params.order, params.filters],
   );
 
-  const { data, error, isLoading, mutate } = useSWR<PaginatedInterface<SearchInterface>>(
-    () => `/searches?params=${JSON.stringify(params)}`,
-    fetcher,
-  );
+  // const { data, error, isLoading, mutate } = useSWR<PaginatedInterface<SearchInterface>>(
+  //   () => `/searches?params=${JSON.stringify(params)}`,
+  //   fetcher,
+  // );
 
   const router = useRouter();
   const [deleteError, setDeleteError] = useState(null);
 
-  const handleDelete = async (id: string) => {
-    setDeleteError(null);
-    try {
-      await deleteSearchById(id);
-      await mutate();
-    } catch (error) {
-      setDeleteError(error);
-    }
-  };
+  // const handleDelete = async (id: string) => {
+  //   setDeleteError(null);
+  //   try {
+  //     await deleteSearchById(id);
+  //     await mutate();
+  //   } catch (error) {
+  //     setDeleteError(error);
+  //   }
+  // };
 
   const handleView = (row: SearchInterface) => {
     if (hasAccess('search', AccessOperationEnum.READ, AccessServiceEnum.PROJECT)) {
@@ -181,7 +181,7 @@ export function SearchListPage(props: SearchListPageProps) {
                 <IconButton
                   onClick={(e) => {
                     e.stopPropagation();
-                    handleDelete(record.id);
+                    // handleDelete(record.id);
                   }}
                   padding="0rem 0.5rem"
                   variant="outline"
@@ -203,12 +203,13 @@ export function SearchListPage(props: SearchListPageProps) {
     <Table
       hidePagination={hidePagination}
       hideTableBorders={hideTableBorders}
-      isLoading={isLoading}
+      // isLoading={isLoading}
       onPageChange={onPageChange}
       onPageSizeChange={onPageSizeChange}
       columns={columns}
-      data={data?.data}
-      totalCount={data?.totalCount || 0}
+      // data={data?.data}
+      data={undefined}  
+      // totalCount={data?.totalCount || 0}
       pageSize={params.pageSize}
       pageIndex={params.pageNumber}
       order={params.order}

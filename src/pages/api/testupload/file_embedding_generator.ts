@@ -62,34 +62,31 @@ export default async (req: any, res: any) => {
       chunkSize: 200,
       chunkOverlap: 50,
     });
-
     const docs = await textSplitter.createDocuments([text]);
-
-    const embeddings = await createEmbeddings(docs);
+    const embeddings = await createEmbeddings(docs,roqUserId);
 
     return res.status(200).json({ message: 'File uploaded successfully' });
   });
 };
 
-const extractTextFromPDF = async (pdfBuffer:any) => {
+const extractTextFromPDF = async (pdfBuffer: any) => {
   const data = await pdf(pdfBuffer);
   return data.text;
 };
 
-const extractTextFromDOC = async (docBuffer:any) => {
+const extractTextFromDOC = async (docBuffer: any) => {
   const result = await mammoth.extractRawText({ buffer: docBuffer });
   return result.value;
 };
 
-const createEmbeddings = async (docs:any) => {
-  const vectorStore = await SupabaseVectorStore.fromDocuments(
+const createEmbeddings = async (docs:any,tableName:string) => {
+  await SupabaseVectorStore.fromDocuments(
     docs,
     new OpenAIEmbeddings({ openAIApiKey: openaikey }),
     {
       client,
-      tableName: 'documents',
-      queryName: 'match_documents',
+      tableName:`user_${tableName}`,
+      queryName: `match_user_${tableName}`, 
     }
   );
-  console.log(vectorStore, 'the vector store things');
 };
