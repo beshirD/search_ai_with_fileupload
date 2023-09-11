@@ -122,8 +122,6 @@ function HomePage() {
           padding={{ base: '32px 16px', lg: '32px 64px', xl: '64px 128px' }}
           overflow="auto"
         >
-        <Search />
-
           <Box>
             <Heading mb={{ base: '12px', lg: '20px' }} size="2xl">
               {`documentation-search-ai`}
@@ -141,7 +139,7 @@ function HomePage() {
                 <Card userTypeName="Owner" type="owner" abilities={appConfig.ownerAbilities} />
               </Stack>
             </Box>
-        <FileUpload />
+        {/* <FileUpload /> */}
 
           </Box>
           <Box pt={4}>
