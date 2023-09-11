@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import axios from 'axios';
 import { Input, Button, Box, Heading, Text, Spinner, Flex, VStack, useToast } from '@chakra-ui/react';
-const FileUpload = () => {
+import { FileUpload } from '@roq/nextjs';
+const CustomFileUpload = () => {
   const [selectedFile, setSelectedFile] = useState(null);
   const [selectedUrl, setSelectedUrl] = useState('');
   const [question, setQuestion] = useState('');
@@ -66,11 +67,10 @@ const FileUpload = () => {
   };
 
   const handleLink = async () => {
-
     try {
       setUrlLoading(true);
-      await axios.post('/api/testupload/link_embedding_generator', {link:selectedUrl});
-      setIsLinkSelected(true)
+      await axios.post('/api/testupload/link_embedding_generator', { link: selectedUrl });
+      setIsLinkSelected(true);
       toast({
         title: 'link sent',
         status: 'success',
@@ -119,18 +119,44 @@ const FileUpload = () => {
       <Box mt="4" border="1px" borderColor="gray.600" borderStyle="dashed" minH={120} p="4" borderRadius="md">
         <Heading size="md">File Upload</Heading>
 
-        <Input type="file" accept=".pdf,.txt,.doc,.docx" onChange={handleFileChange} p={1} width="md" />
+        <FileUpload
+          accept={['*']}
+          fileCategory="USER_FILES"
+          onUploadSuccess={({ url, name, ...rest }) => {
+            (async () => {
+              try {
+                const response = await fetch(url);
+                const blob = await response.blob();
 
-        <Button
-          colorScheme="cyan"
-          onClick={handleFileUpload}
-          isLoading={uploadLoading}
-          loadingText="Uploading..."
-          isDisabled={!isFileSelected}
-          ml={3}
-        >
-          {uploadLoading ? 'Uploading...' : 'Upload File'}
-        </Button>
+                const formData = new FormData();
+                formData.append('file', blob, name);
+                await axios.post('/api/testupload/file_embedding_generator', formData, {
+                  headers: {
+                    'Content-Type': 'multipart/form-data',
+                  },
+                });
+
+                toast({
+                  title: 'Upload Successful',
+                  status: 'success',
+                  duration: 3000,
+                  isClosable: true,
+                  position: 'top-right',
+                });
+              } catch (error) {
+                console.error('Error uploading file:', error);
+                toast({
+                  title: 'Upload Error',
+                  description: 'An error occurred while uploading the file.',
+                  status: 'error',
+                  duration: 3000,
+                  isClosable: true,
+                  position: 'top-right',
+                });
+              }
+            })();
+          }}
+        />
       </Box>
 
       <Box mt="4" border="1px" borderColor="gray.600" borderStyle="dashed" minH={120} p="4" borderRadius="md">
@@ -149,10 +175,10 @@ const FileUpload = () => {
           {urlLoading ? 'learning...' : 'Add URL'}
         </Button>
       </Box>
-      
+
       {/*  */}
     </Box>
   );
 };
 
-export default FileUpload;
+export default CustomFileUpload;
