@@ -23,7 +23,7 @@ export default async (req: any, res: any) => {
   });
   text = await getTextFromLink(linkFromFrontend);
   const docs = await textSplitter.createDocuments([text]);
-  const embeddings = await createEmbeddings(docs,roqUserId);
+//   const embeddings = await createEmbeddings(docs,roqUserId);
 
   return res.status(200).json({ message: 'File uploaded successfully' });
 };
@@ -61,10 +61,11 @@ const getTextFromLink = async (url, maxLinks = 50) => {
                     // Select all <a> elements
                     return Array.from(document.querySelectorAll('a'), (e) => e.href);
                 });
-                
                 for (let i = 0; i < links.length && visitedPageCount < maxLinks; i++) {
-                    if (links[i].startsWith(url)) {
+                    if (links[i].startsWith(url) && !visitedUrls.has(links[i])) {
                         visitedPageCount++;
+                        visitedUrls.add(links[i]);
+
                         // Collect text only from links on the initial page
                         await page.goto(links[i], { timeout: 60000 });
                         let linkText = await page.evaluate(() => document.body.innerText);
