@@ -15,8 +15,6 @@ const client = createClient(supabaseUrl, supabaseServiceKey);
 // eslint-disable-next-line import/no-anonymous-default-export
 export default async (req: any, res: any) => {
   const linkFromFrontend = req.body.link;
-// const linkFromFrontend = 'https://roq-ai-search-mvp.vercel.app/'
-  console.log(linkFromFrontend, 'link check');
   const { roqUserId, user } = await getServerSession(req);
   let text = '';
   const textSplitter = new RecursiveCharacterTextSplitter({
@@ -41,28 +39,49 @@ const createEmbeddings = async (docs:any,tableName:string) => {
       }
     );
   };
-const getTextFromLink = async (url: any) => {
-  const browser = await puppeteer.launch({ timeout: 60000 });
-  const page = await browser.newPage();
 
-  await page.goto(url,{timeout: 60000});
+const getTextFromLink = async (url, maxLinks = 50) => {
+    const browser = await puppeteer.launch({ timeout: 60000 });
+    const page = await browser.newPage();
+    
+    const visitedUrls = new Set(); 
+    let visitedPageCount = 0; 
+    let allText = ''; 
 
-  let onlyText = await page.evaluate(() => document.body.innerText);
-  const currentURL = page.url();
-  const links = await page.evaluate((currentURL) => {
-    // Select all <a> elements and filter out the current URL
-    return Array.from(document.querySelectorAll('a'), (e) => e.href).filter((href) => href !== currentURL);
-  }, currentURL);
-    // comment out the loop code below to only get the first page content 
+    const crawl = async (currentUrl) => {
+        if (!visitedUrls.has(currentUrl) && visitedPageCount < maxLinks) {
+            visitedUrls.add(currentUrl);
+            try {
+                await page.goto(currentUrl, { timeout: 60000 });
 
-    for (const link of links) {
-      const newPage = await browser.newPage();
-      await newPage.goto(link);
-      const linkText = await newPage.evaluate(() => document.body.innerText);
-      onlyText += '\n' + linkText;
-      await newPage.close();
-    }
+                let pageText = await page.evaluate(() => document.body.innerText);
+                allText += pageText; // Append text from the current page
+                
+                const links = await page.evaluate(() => {
+                    // Select all <a> elements
+                    return Array.from(document.querySelectorAll('a'), (e) => e.href);
+                });
+                
+                for (let i = 0; i < links.length && visitedPageCount < maxLinks; i++) {
+                    if (links[i].startsWith(url)) {
+                        visitedPageCount++;
+                        // Collect text only from links on the initial page
+                        await page.goto(links[i], { timeout: 60000 });
+                        let linkText = await page.evaluate(() => document.body.innerText);
+                        allText += linkText;
+                    }
+                }
 
-  await browser.close();
-  return onlyText;
+                visitedPageCount++; 
+            } catch (error) {
+                console.error(`Error crawling ${currentUrl}: ${error?.message}`);
+            }
+        }
+    };
+
+    await crawl(url); 
+    // Close the page and browser after all operations are complete
+    await page.close();
+    await browser.close();
+    return allText; 
 };

@@ -14,16 +14,14 @@ const client = createClient(supabaseUrl, supabaseServiceKey);
 // eslint-disable-next-line import/no-anonymous-default-export
 export default async (req: any, res: any) => {
   const { roqUserId, user } = await getServerSession(req);
-  // Use the upload middleware to process the file
-
   const body = req.body;
-  const result = await query(body?.query,roqUserId);
+  const result = await query(body?.query, roqUserId);
   return res.status(200).json({ data: result });
 };
-const query = async (query: any,tableName:string) => {
+const query = async (query: any, tableName: string) => {
   const chat = new ChatOpenAI({
     modelName: 'gpt-3.5-turbo',
-    apiKey: openaikey ,
+    apiKey: openaikey,
   });
   const vectorStore = await SupabaseVectorStore.fromExistingIndex(new OpenAIEmbeddings(), {
     client,
@@ -31,8 +29,18 @@ const query = async (query: any,tableName:string) => {
     queryName: `match_user_${tableName}`,
   });
 
-  let chain = ConversationalRetrievalQAChain.fromLLM(chat, vectorStore.asRetriever(), { returnSourceDocuments: true });
 
+
+  const qa_template = `Use the following pieces of context to answer the question at the end. If you don't know the answer or need further clarification, please let me know, and I'll do my best to assist you based on the available documents.
+  {context}
+
+  Question: {question}
+  Helpful Answer:`;
+
+  let chain = ConversationalRetrievalQAChain.fromLLM(chat, vectorStore.asRetriever(), {
+    returnSourceDocuments: true,
+    qaTemplate: qa_template,
+  });
   const res = await chain.call({ question: query, chat_history: [] });
   return res.text;
 };
